@@ -1,11 +1,20 @@
 import './App.css'
+import { Footer } from './components/Footer'
+import { Header } from './components/Header'
+import { Navigation } from './components/Navigation'
 
 function App() {
 
   return(
-    <h1>
-      Welcome to the Metrocall new site!
-    </h1>
+    <>
+    
+      <Header/>
+    
+      <Navigation/>
+
+      <Footer/>
+    
+    </>
   )
 }
 
